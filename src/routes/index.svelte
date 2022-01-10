@@ -2,5 +2,5 @@
   import { page } from "$app/stores";
 </script>
 
-<p>$page.url.origin: <b>{$page.url.origin}</b></p>
+<p>$page.url.host: <b>{$page.url.host}</b></p>
 <a href="/other">Navigate to other page</a>
